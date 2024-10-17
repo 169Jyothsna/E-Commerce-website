@@ -1,0 +1,44 @@
+.cart {
+    width: 350px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    border-bottom: 1px solid #0f3a8a;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-item h3 {
+    margin: 5px 0;
+}
+
+.cart h3 {
+    font-size: 1.2em;
+    color: #291212;
+}
+.cart-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #283fa7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ae901a;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
