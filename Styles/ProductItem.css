@@ -1,0 +1,32 @@
+.product-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: auto;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #30e657be;
+    color: rgb(11, 11, 1);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #dfb81a;
+}
